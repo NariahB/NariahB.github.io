@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+        	<title>HomeComing</title>
+			<link rel="stylesheet" type="text/css" href="css/homecoming.css">
+			<script>
+				function getUsername() {
+					var username= prompt("What do you want for your username?", " ");
+					document.getElementById("myusername").innerHTML = username;
+				}
+				function getName() {
+					var name = prompt("Enter your name.", " ");
+					document.getElementById("myname").innerHTML = name;
+				}
+				
+			</script>
+		</head>
+			<body>
+				<center><div class="abouta"><h1>NCA&T Home Coming</h1>
+					<h1>Greatest Home Coming on Earth</h1></div></center>
+				<ul>
+					<li class="liedit"><a href="homecoming.html" class="edit">Home</a></li>
+					<li class="liedit"><a href="fontpage.html" class="edit">About Homecoming</a></li>
+					<li class="liedit"><a href="events.html" class="edit">Events of Homecoming</a></li>
+					<li class="liedit"><a href="sign.html" class="edit">Sign In</a></li>
+					<li class="liedit"><a href="contact.html" class="edit">Contact Us</a></li>
+					<li class="liedit"><a href="about.html" class="edit">Tell Us About You</a></li>
+				</ul>
+				
+				<center><div class="lastbit"><p><button onclick="getName()">Enter your name</button>
+				Hi, there, <span id="myname"></span></p>
+				<p><button onclick="getUsername()">Enter a username</button>
+				Username: <span id="myusername"></span></p></div></center>
+
+    </body>
+</html>

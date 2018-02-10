@@ -1,0 +1,28 @@
+.boxed{
+    width: 125;
+    border: 3px solid #00cc99;
+    border-width: 7px;
+    padding: 1em;
+    text-align: center;
+    font-size: 17;
+}
+
+h1{
+    font-size: 70;
+    font-family: fantasy;
+    color: #00cc99;
+
+    
+    
+    
+}
+
+h3{
+    font-size: 30;
+    font-family: fantasy;
+    color: #00cc99;
+
+    
+    
+    
+}
